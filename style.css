@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    padding: 30px;
+    text-align: center;
+    background-color: #B9D6F2;
+}
+h1{
+    color: #0b7ec1
+}
+svg{
+    background-color:#0b7ec1;
+    border: 2px solid white;
+}
+.bar{
+    fill: #B9D6F2;;
+}
+.bar:hover{
+    fill:#0b7ec1
+}
