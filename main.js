@@ -1,5 +1,5 @@
 let url='https://raw.githubusercontent.com/freeCodeCamp/ProjectReferenceData/master/GDP-data.json';
-let req=new XMLHttpRequest(); //to request data
+let req= new XMLHttpRequest(); //to request data
 let data;
 let values;
 let padding=40  
@@ -112,8 +112,6 @@ req.onload=() =>{ //response text
     generateScales()
     generateAxis()
     drawBars()
-    
-
 } 
 req.send(); //send a string response in format other than json
 

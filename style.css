@@ -7,13 +7,15 @@
 body{
     padding: 30px;
     text-align: center;
-    background-color: #B9D6F2;
+    background-color: #000000;
+    color: white;
 }
 h1{
-    color: #0b7ec1
+    color: #0b7ec1;
+    margin: .5rem;
 }
 svg{
-    background-color:#0b7ec1;
+    background-color:#000000;
     border: 2px solid white;
 }
 .bar{
